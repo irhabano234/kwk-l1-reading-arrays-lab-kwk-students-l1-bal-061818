@@ -27,12 +27,12 @@ last_student_by_index
 
 def first_student_by_method
   # Write a solution that returns the first student using the built in .first method
-  puts {"Adele"}
+  puts student_names.first
 end
 
 def last_student_by_method
   # Write a solution that returns the first student using the built in .last method
-  puts {"Rihanna"}
+  puts student_names.last
 end
 
 def first_second_and_third_students
